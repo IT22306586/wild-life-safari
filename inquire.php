@@ -4,14 +4,14 @@
 
  <meta charset="UTF-8">
  <title>INQUIRE | WILD-LIFE SAFARI</title>
- <link rel="stylesheet" type="text/css" href="../wild-life/CSS/Inquire.css">
+ <link rel="stylesheet" type="text/css" href="../wild-life-safari/CSS/Inquire.css">
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
  <style>
 
   body{
-    background-image: url("../wild-life/IMG/bg6.jpg");
+    background-image: url("../wild-life-safari/IMG/bg6.jpg");
     background-size: cover;
     
   }

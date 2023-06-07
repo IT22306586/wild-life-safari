@@ -31,7 +31,7 @@
                         <a href="./About us.php"><p>About Us</p></a>
                         <a href="./Terms and Conditions.php"><p>Term & Condition</p></a>
                           <a href="./privacy policy.php"><p>Privacy Policy</p></a>
-                        <a href="./Contact us.php"><p>Contact Us</p></a>
+                        <a href="./Contactus.php"><p>Contact Us</p></a>
                     </div>
                 </div>
             </div>
