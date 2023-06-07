@@ -15,7 +15,7 @@
         <section class="navigationbar">
         <div class="navbar">
             <div class="logo">
-                <a href="#">
+                <a href="./index.php">
                     <img src="./IMG/logowhite.png"/>
                 </a>
             </div>
