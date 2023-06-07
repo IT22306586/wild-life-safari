@@ -21,7 +21,7 @@
             </div>
         <div class="nav-bottom-bar">
             <ul>
-                <a href="#">HOME</a>
+                <a href="./index.php">HOME</a>
                 <a href="#">PACKAGES</a>
                 <a href="#">RESERVATION</a>
                 <a href="#">DONATION</a>
