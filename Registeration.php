@@ -1,11 +1,11 @@
 <html>
 <head>
 <title>Registeration</title>
-<link rel="stylesheet" href="Registeration.css">
+<link rel="stylesheet" href="./CSS/Registeration.css">
 </head>
 
 <body>
-
+<?php require 'header.php' ?>
 <form method="post" class="form"align="center">
     <h1 align="center">Sign Up</h1>
 
@@ -25,6 +25,7 @@
 <p align="center">Already have an account
 <a href="www.login.lk">Log-in</a></p>
 </form>
+<?php require 'footer.php' ?>
 </body>
 
 </html>

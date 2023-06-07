@@ -1,11 +1,11 @@
 /*Body*/
 body{
-	background-image:url("e.jpg");
-  background-image:url("f.jpg");
-  background-image:url("g.jpg");
-  background-image:url("h.jpg");
-  background-image:url("i.jpg");
-  background-image:url("g.jpg");
+	background-image:url("../IMG/e.jpg");
+  background-image:url("../IMG/f.jpg");
+  background-image:url("../IMG/g.jpg");
+  background-image:url("../IMG/h.jpg");
+  background-image:url("../IMG/i.jpg");
+  background-image:url("../IMG/g.jpg");
 	background-position:center;
 	background-size:cover;
   opacity:1.0;
@@ -16,27 +16,27 @@ body{
 @keyframes change {
   0%
   {
-    background-image:url("e.jpg");
+    background-image:url("../IMG/e.jpg");
   }
   20%
   {
-    background-image:url("f.jpg");
+    background-image:url("../IMG/f.jpg");
   }
   40%
   {
-    background-image:url("g.jpg");
+    background-image:url("../IMG/g.jpg");
   }
   60%
   {
-    background-image:url("h.jpg");
+    background-image:url("../IMG/h.jpg");
   }
   80%
   {
-    background-image:url("i.jpg");
+    background-image:url("../IMG/i.jpg");
   }
   100%
   {
-    background-image:url("g.jpg");
+    background-image:url("../IMG/g.jpg");
   }
   
 }
