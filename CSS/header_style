@@ -8,12 +8,14 @@
     height: auto;
     
 }
+
 .navigationbar{
-    position: fixed;
+    position: fixed;    
     width: 100%;
     z-index: 9999;
     top: 0;
 }
+
 .navbar {
     padding: 0;
     display: flex;
@@ -23,6 +25,8 @@
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
+    width: 100%;
+    
 }
 
 .navbar .logo img {

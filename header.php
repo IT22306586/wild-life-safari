@@ -15,23 +15,25 @@
         <section class="navigationbar">
         <div class="navbar">
             <div class="logo">
-                <a href="./index.php">
+                <a href="#">
                     <img src="./IMG/logowhite.png"/>
                 </a>
             </div>
         <div class="nav-bottom-bar">
             <ul>
-                <a href="./index.php">HOME</a>
+                <a href="#">HOME</a>
                 <a href="#">PACKAGES</a>
-                <a href="./reservation.php">RESERVATION</a>
+                <a href="#">RESERVATION</a>
                 <a href="#">DONATION</a>
-                <a href="#">INQURE</a>
+                <a href="./inquire.php">INQURE</a>
                 <a href="#">REGISTER</a>
                 <a href="#">LOGIN</a>
             </ul>
         </div>
         
     </header> 
+
+
 </body>
 </html>
  </div>
