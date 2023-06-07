@@ -23,7 +23,7 @@
             <ul>
                 <a href="./index.php">HOME</a>
                 <a href="#">PACKAGES</a>
-                <a href="#">RESERVATION</a>
+                <a href="./reservation.php">RESERVATION</a>
                 <a href="#">DONATION</a>
                 <a href="./inquire.php">INQURE</a>
                 <a href="#">REGISTER</a>
