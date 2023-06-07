@@ -1,0 +1,97 @@
+/*Body*/
+body{
+	background-image:url("e.jpg");
+  background-image:url("f.jpg");
+  background-image:url("g.jpg");
+  background-image:url("h.jpg");
+  background-image:url("i.jpg");
+  background-image:url("g.jpg");
+	background-position:center;
+	background-size:cover;
+  opacity:1.0;
+  animation: change 30s infinite ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+@keyframes change {
+  0%
+  {
+    background-image:url("e.jpg");
+  }
+  20%
+  {
+    background-image:url("f.jpg");
+  }
+  40%
+  {
+    background-image:url("g.jpg");
+  }
+  60%
+  {
+    background-image:url("h.jpg");
+  }
+  80%
+  {
+    background-image:url("i.jpg");
+  }
+  100%
+  {
+    background-image:url("g.jpg");
+  }
+  
+}
+
+
+/*Heading sign up*/
+h1{
+  color: #fff;
+
+}
+
+/*form*/
+form {
+  width: 300px;
+  margin: 10 auto;
+}
+
+/*Label*/
+label {
+  display: block;
+  margin-bottom: 10px;
+  color:#00fc6d;
+  font-size:28px;
+  font-family:Agency FB;
+}
+
+/*Input*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+/*Button*/
+.button {
+  background-color:#3BAF9F;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:25px;
+  cursor:pointer;
+}
+ .button:hover{
+  background-color: #108E75;
+}
+
+p{
+	color:white;
+}
+
+.form{
+  background-color:rgba(48, 45, 45, 0.5);
+  padding:100px;
+  border-radius: 10px;
+}
