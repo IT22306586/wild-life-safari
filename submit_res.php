@@ -28,4 +28,4 @@ mysqli_stmt_bind_param($stmt, "ssssssi", $fname, $laname, $ptype, $nic, $email, 
 mysqli_stmt_execute($stmt);
 
 }
-
+?>
