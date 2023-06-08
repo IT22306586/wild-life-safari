@@ -26,7 +26,7 @@
                 <a href="./reservation.php">RESERVATION</a>
                 <a href="#">DONATION</a>
                 <a href="./inquire.php">INQURE</a>
-                <a href="#">REGISTER</a>
+                <a href="./Registeration.php">REGISTER</a>
                 <a href="#">LOGIN</a>
             </ul>
         </div>
