@@ -1,9 +1,7 @@
 
 *{
-    box-sizing: border-box
+    box-sizing: border-box;
 }
-
-
 
 .topic{
     font-size: 40px;
@@ -19,10 +17,10 @@ body{
 }
 .slider{
     width: 90vmin;
-    height: 60vmin;
-    position:absolute;
-    top: 20%;
-    left: 5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 25%;
     overflow: hidden;
     border: 5px solid #000000;
     border-radius: 8px;
@@ -72,8 +70,8 @@ img{
 }
 .map {
     position: absolute; 
-    top: 140px;
-    left: 53%;
+    top: 159px;
+    left: 51%;
     border: #000000;
     border-width: 20px;
     border: 5px solid rgb(0, 0, 0);
@@ -85,10 +83,9 @@ img{
     font-size: 25px;
     font-family: "Lexend";
     padding-top: 500px;
-    padding-bottom: 100px;
     color: rgb(0, 0, 0);
     line-height: 1.5;
-
+    padding-bottom: 80px;
 
 }
 .content p{

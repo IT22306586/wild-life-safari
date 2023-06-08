@@ -61,7 +61,7 @@
   <div class="des">
     <p>title description for card for absbbsbs.....</p>
     <div class="button">
-      <a href="#">
+      <a href="./Kanneliya.php">
       <button>Read More...</button>
       </a>
     </div>
@@ -78,7 +78,7 @@
   <div class="des">
     <p>title description for card for absbbsbs.....</p>
     <div class="button">
-      <a href="#">
+      <a href="./Wasgamuwa.php">
       <button>Read More...</button>
       </a>
     </div>
@@ -95,7 +95,7 @@
   <div class="des">
     <p>title description for card for absbbsbs.....</p>
     <div class="button">
-      <a href="#">
+      <a href="./Minneriya.php">
       <button>Read More...</button>
       </a>
     </div>
