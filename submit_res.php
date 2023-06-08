@@ -25,7 +25,12 @@ if(! mysqli_stmt_prepare($stmt, $sql)) {
 
 mysqli_stmt_bind_param($stmt, "ssssssi", $fname, $laname, $ptype, $nic, $email, $acode, $number);
 
-mysqli_stmt_execute($stmt);
+mysqli_stmt_execute($stmt);{
+	echo '<script>alert("Thank you for your reservation. \n\ Submit succsessful!"); window.location.href = "reservation.php";</script>';
+}
 
+}
+else{
+	header('location:../reservation.php');
 }
 ?>
