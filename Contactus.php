@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php require 'contactsql.php'?>
+
  <meta charset="UTF-8">
  <title>CONTACT US | WILD-LIFE SAFARI</title>
  <link rel="stylesheet" type="text/css" href="./CSS/contact.css">
