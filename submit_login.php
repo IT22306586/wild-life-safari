@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $userRow = mysqli_fetch_array($userResult);
 
     // Query for the admin table
-    $adminSql = "SELECT * FROM admin_type WHERE username='$Username' AND password='$password'";
+    $adminSql = "SELECT * FROM admin_table WHERE username='$Username' AND password='$password'";
     $adminResult = mysqli_query($conn, $adminSql);
     $adminRow = mysqli_fetch_array($adminResult);
 
