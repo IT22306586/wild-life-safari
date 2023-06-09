@@ -20,12 +20,12 @@
         if (mysqli_stmt_num_rows($checkStmt) > 0) {
             echo '<script>alert("Username or email already exists!"); window.location.href = "Registeration.php";</script>';
         } else {
-            $insertQuery = "INSERT INTO register(username, email, password, repassword) VALUES (?, ?, ?, ?)";
+            $insertQuery = "INSERT INTO register(Username, email, password,ReEnter_Password ) VALUES (?, ?, ?, ?)";
             $insertStmt = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($insertStmt, $insertQuery)) {
                 die(mysqli_error($conn));
             }
-            mysqli_stmt_bind_param($insertStmt, "ssss", $username, $email, $password, $repassword);
+            mysqli_stmt_bind_param($insertStmt, "ssii", $username, $email, $password, $repassword);
             mysqli_stmt_execute($insertStmt);
             echo '<script>alert("Thank you for your registration! Submission successful!"); window.location.href = "Registeration.php";</script>';
         }
