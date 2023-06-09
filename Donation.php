@@ -2,15 +2,23 @@
 <html>
 <head>
     <title> WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="Dstyle.css">
+    <link rel="stylesheet" href="./CSS/Donation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
+
 </head>
 
  <body>
-    <h1 class="main"> DONATE</h1>
-    <img src="donation.webp" alt="Lights" class="img-main">
+    <div class="main">
+       DONATE
+    </div>
+    
+    <div class ="img-main">
+    <img src="./IMG/don1.jpg" style="width: 1500px; height: 450px;>
+    </div>
 
+    
     <p>  <div class="paragraph"><span style="color:rgb(139, 6, 2)">Support us with your donation !</span><br> Without you, Our work would be impossible. Your contribution helps to ensure a better life for animals all around the globe. Every donation counts and together, we can change animals lives. 
       Thank you!</div></p><br><br><br>
 

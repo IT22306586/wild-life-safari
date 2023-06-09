@@ -1,29 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@500&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
 
 body{
     padding: 0;
     margin: 0;
-    background-color: rgba(185, 159, 15, 0.336);
 }
 .main{
     font-family:'Lexend', sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     letter-spacing: 1.1em;
-
+    text-align: center;
 }
 
 .img-main{
-    
-    image width: 200px 100px;
-    image height:100px;
-  
+    padding-top: 100px;
+  text-align: center;
+  vertical-align: middle;
 
 }
 .paragraph{
-    font-family:'Aref Ruqaa Ink', serif;
+    font-family:"Lexend";
     font-size: 30px;
     text-align: center;
     
@@ -31,7 +25,7 @@ body{
 
 .Form-header{
     
-    font font-family:'Playfair Display', serif;
+    font-family:"Lexend";
     font-size: 30px;
 }
 
