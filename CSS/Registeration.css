@@ -44,7 +44,7 @@ body{
 
 /*Heading sign up*/
 h1{
-  color: #fff;
+  color: #02e2fb;
   font-family: "Lexend";
 
 }
@@ -73,6 +73,7 @@ input[type="password"] {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 25px;
+  font-family: "Lexend";
 }
 
 /*Button*/
