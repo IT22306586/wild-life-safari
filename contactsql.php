@@ -16,7 +16,7 @@
        
        
         if ($stmt->execute()) {
-            echo '<script>alert("Thank you for getting in touch!\n\nWe appreciate you contacting us. We will get back in touch with you soon!\n\nHave a great day!"); window.location.href = "Contact us.php";</script>'; } else {
+            echo '<script>alert("Thank you for getting in touch!\n\nWe appreciate you contacting us. We will get back in touch with you soon!\n\nHave a great day!"); window.location.href = "index.php";</script>'; } else {
             echo  '<script>alert("");  window.location.href = "Contact us.php ";</script>';
         }
 
