@@ -18,11 +18,11 @@
 
     <div class="slider">
         <div class="slide-image">
-                <img src="./IMG/bundala1.jpg">
-                <img src="./IMG/bundala2.jpg">
-                <img src="./IMG/bundala3.jpg">
-                <img src="./IMG/bundala4.jpg">
-                <img src="./IMG/bundala5.jpg">
+                <img src="./IMG/udawa1.jpg">
+                <img src="./IMG/udawa2.jpg">
+                <img src="./IMG/udawa3.jpg">
+                <img src="./IMG/udawa4.jpg">
+                <img src="./IMG/udawa5.jpg">
         </div>
     </div>
 <div class="map">
