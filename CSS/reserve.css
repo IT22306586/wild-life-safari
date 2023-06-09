@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box
+}
+
 body{
     backdrop-filter: blur(8px);
     background-image: url("../IMG/res2.jpg");
