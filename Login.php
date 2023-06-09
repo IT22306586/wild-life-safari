@@ -15,7 +15,7 @@
   <div class="Login"><br><br>
     <h1>Login Here!</h1><br>
     <div class="form">
-      <form class="form" method="POST" action="../submitlogin.php">
+      <form class="form" method="POST" action="./submit_login.php">
         <label for="username">Username</label><br><br>
         <input type="text" name="username" placeholder="Enter Username" required><br><br>
         <label for="password">Password</label><br><br>
