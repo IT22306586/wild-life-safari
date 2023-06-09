@@ -22,9 +22,9 @@
         <div class="nav-bottom-bar">
             <ul>
                 <a href="./index.php">HOME</a>
-                <a href="#">PACKAGES</a>
+                <a href="./packeges.php">PACKAGES</a>
                 <a href="./reservation.php">RESERVATION</a>
-                <a href="#">DONATION</a>
+                <a href="./Donation.php">DONATION</a>
                 <a href="./inquire.php">INQURE</a>
                 <a href="./Registeration.php">REGISTER</a>
                 <a href="./Login.php">LOGIN</a>

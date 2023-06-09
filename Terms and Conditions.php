@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>TERMS AND CONDITIONS | WILD-LIFE SAFARI</title>
-  <link rel="stylesheet" type="text/css" href="./CSS/terms of.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/terms.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
 <style>
 
   body{
-    background-image: url("./IMG/termsandco.jpg");
+    background-image: url("./IMG/bg5.jpg");
     background-size: cover;
     
   }

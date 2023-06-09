@@ -16,35 +16,37 @@
   * {box-sizing: border-box;
     padding: 0;
     margin:0;}
-  body {font-family: Verdana, sans-serif; margin:0}
+  
   .mySlides {display: none}
   img {vertical-align: middle;}
   
   
   label{
-    font-family:Agency FB;
+    font-family: "Lexend";
     font-size: 25px;
-    color: #c3ff00;
+    color: #ffffff;
   }
   
   
   .Login{
-      width: 400px;
+    width: 400px;
     height: 600px;
     background-color:rgb(0,0,0,.6);
      margin:auto;
-     color:#FFFFFF;
+     color:#02e2fb;
      padding:10x 0px 10px 0px;
      text-align: center;
      border-radius:12px 12px 12px 12px;
+     font-family: "Lexend";
+     
   
     }
   
     .form input{
     
-       font-family: "Agency FB", sans-serif;
+     
      outline: 1;
-     background: #FFFFFF;
+     background: #ffffff;
      width: 60%;
      border: 2px solid white;
      margin: 0 0 15px;
@@ -70,10 +72,9 @@
                   background-color:#108E75;
             }
            body {
-            background: url('../IMG/k.jpg');
+            background: url('../IMG/i.jpg');
             background-position: center;
             background-size: cover;
-            font-family: Arial;
             margin-top: 80px;
             background-repeat: no-repeat;
             }  

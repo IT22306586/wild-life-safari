@@ -1,0 +1,62 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    font-family:'Lexend', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1.1em;
+    text-align: center;
+}
+
+.img-main{
+    padding-top: 100px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.paragraph{
+    font-family:"Lexend";
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.Form-header{
+    
+    font-family:"Lexend";
+    font-size: 30px;
+}
+
+.Div1{
+    -ms-flex: 25%;
+    flex: 25%;
+   background-color: (185, 159, 15, 0.336);
+    width:50%;
+    float:left
+}
+
+.Div2{
+    background-color: (185, 159, 15, 0.336);
+    width: 50%;
+    float: right;
+}
+
+.payment {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: #64a4ac;
+   
+    border: 2px solid #f1f1f1;
+   
+    left: 25%;
+    right: 50%;
+   
+    z-index: 1;
+    width: 50%;
+    padding: 30px;
+    text-align: auto;
+    margin: 20px 200px;
+  }
+

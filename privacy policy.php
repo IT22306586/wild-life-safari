@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>PRIVACY POLICY | WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="./CSS/prvcy.css" />
+    <link rel="stylesheet" href="./CSS/privacy.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
     <style>
 
      body{
-      background-image: url("./IMG/pbg1.jpg");
+      background-image: url("./IMG/bg2.jpg");
       background-size: cover;
     
        }

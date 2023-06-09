@@ -28,7 +28,7 @@
         </div>
     </div>
 <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126513.60790782311!2d80.86556686193508!3d7.731305693197733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb52570f648bc9%3A0xa4d95d7cf2f31436!2sWasgamuwa%20National%20Park!5e0!3m2!1sen!2slk!4v1685796785457!5m2!1sen!2slk" width="650" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126513.60790782311!2d80.86556686193508!3d7.731305693197733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb52570f648bc9%3A0xa4d95d7cf2f31436!2sWasgamuwa%20National%20Park!5e0!3m2!1sen!2slk!4v1685796785457!5m2!1sen!2slk" width="650" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
 
         <div class="content">

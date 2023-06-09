@@ -1,51 +1,14 @@
 /*Body*/
 body{
-	background-image:url("../IMG/e.jpg");
-  background-image:url("../IMG/f.jpg");
-  background-image:url("../IMG/g.jpg");
-  background-image:url("../IMG/h.jpg");
-  background-image:url("../IMG/i.jpg");
-  background-image:url("../IMG/g.jpg");
-	background-position:center;
-	background-size:cover;
-  opacity:1.0;
-  animation: change 30s infinite ease-in-out;
-  animation-iteration-count: infinite;
-
-}
-@keyframes change {
-  0%
-  {
-    background-image:url("../IMG/e.jpg");
-  }
-  20%
-  {
-    background-image:url("../IMG/f.jpg");
-  }
-  40%
-  {
-    background-image:url("../IMG/g.jpg");
-  }
-  60%
-  {
-    background-image:url("../IMG/h.jpg");
-  }
-  80%
-  {
-    background-image:url("../IMG/i.jpg");
-  }
-  100%
-  {
-    background-image:url("../IMG/g.jpg");
-  }
-  
+	background-image:url("../IMG/g.jpg");
+  background-size: cover;
 }
 
 
 /*Heading sign up*/
 h1{
-  color: #fff;
-  font-family:Arial;
+  color: #02e2fb;
+  font-family: "Lexend";
 
 }
 
@@ -59,9 +22,9 @@ form {
 label {
   display: block;
   margin-bottom: 10px;
-  color:#00fc6d;
+  color:#ffffff;
   font-size:28px;
-  font-family:Agency FB;
+  font-family: "Lexend";
 }
 
 /*Input*/
@@ -73,6 +36,7 @@ input[type="password"] {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 25px;
+  
 }
 
 /*Button*/

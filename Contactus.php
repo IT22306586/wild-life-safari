@@ -10,7 +10,7 @@
 
 <style>
     body {
-      background-image: url("../wild-life-safari/IMG/bg3.jpg");
+      background-image: url("./IMG/bg3.jpg");
       background-size: cover;
     }
   </style>
