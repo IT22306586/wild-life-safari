@@ -22,14 +22,14 @@
   
   
   label{
-    font-family:Agency FB;
+    font-family:"Lexend";
     font-size: 25px;
     color: #c3ff00;
   }
   
   
   .Login{
-      width: 400px;
+    width: 400px;
     height: 600px;
     background-color:rgb(0,0,0,.6);
      margin:auto;
@@ -42,7 +42,7 @@
   
     .form input{
     
-       font-family: "Agency FB", sans-serif;
+       font-family: "Lexend";
      outline: 1;
      background: #FFFFFF;
      width: 60%;

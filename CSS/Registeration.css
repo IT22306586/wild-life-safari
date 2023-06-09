@@ -45,7 +45,7 @@ body{
 /*Heading sign up*/
 h1{
   color: #fff;
-  font-family:Arial;
+  font-family: "Lexend";
 
 }
 
@@ -61,7 +61,7 @@ label {
   margin-bottom: 10px;
   color:#00fc6d;
   font-size:28px;
-  font-family:Agency FB;
+  font-family: "Lexend";
 }
 
 /*Input*/
