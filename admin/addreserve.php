@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="./CSS/reserve.css">
+    <link rel="stylesheet" href="./CSS/resstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Oswald:wght@200&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<?php require 'header.php' ?>
 
+<?php require 'header.php'?>
 <br><br><br><br><br>
  <div class="formchange">
     <div class="reservation">Wild-Life Safari Booking</div>
     <div class="main">
-    <form action="./submit_res.php" method="POST" >
+    <form action="./adduser.php" method="POST" >
         <div id="name">
             <h2 class="name">Name:</h2>
             <input class="firstname" type="text" name="fname" required placeholder="First Name"><br>
@@ -40,26 +40,16 @@
         <input class="code" type="text" name="acode" required  maxlength="3" size="3" placeholder="Ex:+94">
         <label class="area-code ">  Area code: </label>
         <input class="number" type="text" name="number" required  maxlength="9" size="9" placeholder="Ex:- 771234567">
-        <label class="phone-number"> Phone Number: </label><br><br>
-        
-        <center>
-        <button  type="submit" name="submit" value="Send Data" onclick="openPopup()"> Submit </button>
-        </center>
-        
+        <label class="phone-number"> Phone Number: </label><br>
+        <CENTER>
+        <button  type="submit"  value="Send Data"> Submit </button>
+        <button  type="reset"  value="reset"> Reset </button>  
+        </CENTER> 
     </form>
   </div>
-<center>
-  <div class="popup" id="popup">
-    <img src="./IMG/404-tick.png">
-    <h2>Thank You!</h2>
-    <p>Your Details has been successfully submited.<br>Click Pay!</p>
-    <button type="button" onclick="document.location='pay.php'">Pay</button>
-
-  </div>
-  </center>
  </div> 
 
-<?php require 'footer.php' ?>
+ <?php require 'footer.php'?>
 </body>
 
 </html>
