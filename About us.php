@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ABOUT US | WILD-LIFE SAFARI</title>
+    <title>ABOUUUT US | WILD-LIFE SAFARI</title>
     <link rel="stylesheet" href="../wild-life/CSS/About us.css">
    
     <style>
