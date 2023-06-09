@@ -45,6 +45,7 @@ body{
 /*Heading sign up*/
 h1{
   color: #fff;
+  font-family:Arial;
 
 }
 
@@ -91,7 +92,9 @@ p{
 }
 
 .form{
-  background-color:rgba(48, 45, 45, 0.5);
+  background-color:rgb(0,0,0,.6);
   padding:100px;
   border-radius: 10px;
+  
+
 }

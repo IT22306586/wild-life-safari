@@ -27,7 +27,7 @@
                 <a href="#">DONATION</a>
                 <a href="./inquire.php">INQURE</a>
                 <a href="./Registeration.php">REGISTER</a>
-                <a href="#">LOGIN</a>
+                <a href="./Login.php">LOGIN</a>
             </ul>
         </div>
         

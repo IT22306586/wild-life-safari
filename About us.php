@@ -42,7 +42,7 @@
        <li>Yala National Park Tours</li>
       </ul>
  </p>
-  </div>
+  </div></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
   <?php require 'footer.php'?>
 
 </body>
