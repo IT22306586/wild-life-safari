@@ -26,7 +26,7 @@
         </div>
     </div>
 <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126877.24428204565!2d81.38901885311542!3d6.405095280920638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5d3a62ffb9359%3A0x3bb623d70b5a3314!2sYala%20National%20Park!5e0!3m2!1sen!2slk!4v1685562274840!5m2!1sen!2slk" width="650" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126877.24428204565!2d81.38901885311542!3d6.405095280920638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5d3a62ffb9359%3A0x3bb623d70b5a3314!2sYala%20National%20Park!5e0!3m2!1sen!2slk!4v1685562274840!5m2!1sen!2slk" width="650" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 <div class="content">
             <p>
             Yala National Park is situated in the south-east region of Sri Lanka and is the 2nd largest National Park in the island, situated some 300 km away from Colombo. It was at first established in the early 1890s as a game sanctuary . The park is located in the dry-zone region where the drought season is very long .The day time average temperature is over 30 degrees which is not uncommon in the region. 
