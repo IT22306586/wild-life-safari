@@ -16,13 +16,13 @@
 <div class="slider-container">
   <div class="slider">
     <div class="slider-item">
-      <img class="slider-img" src="./IMG/cover.jpg" alt="Slider Image 1">
+      <img class="slider-img" src="./IMG/home1.jpg" alt="Slider Image 1">
     </div>
     <div class="slider-item">
-      <img class="slider-img" src="./IMG/cover2.jpg" alt="Slider Image 2">
+      <img class="slider-img" src="./IMG/home2.jpg" alt="Slider Image 2">
     </div>
     <div class="slider-item">
-      <img class="slider-img" src="./IMG/cover3.jpg" alt="Slider Image 3">
+      <img class="slider-img" src="./IMG/home3.jpg" alt="Slider Image 3">
     </div>
   </div>
   <div class="slider-buttons"></div>
