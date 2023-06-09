@@ -16,6 +16,7 @@ body{
     width: 1000px;
     background-color:#16293800;
     backdrop-filter: blur(8px);
+    font-family: "Lexend";
     margin:auto;
     font-size: 40px;
     font-weight: 1000;
@@ -54,6 +55,7 @@ form{
     color:#000000;
     font-size: 20px;
     font-weight:700; 
+    font-family: "Lexend";
     
 }
 
@@ -84,7 +86,7 @@ form{
     position:relative;
     left:200px;
     height: 35px;
-    top:-21px;
+    top:-42px;
     line-height:35px;
     width:524px;
     border-radius:20px;
