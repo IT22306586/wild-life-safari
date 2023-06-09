@@ -3,12 +3,13 @@
 <head>
 <title>Registeration</title>
 <link rel="stylesheet" href="./CSS/Registeration.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
 </head>
 
 <body>
 <?php require 'header.php' ?>
 <form action="./Submit_register.php"method="post" class="form" align="center">
-    <h1>Sign Up</h1><br><br>
+    <h1><u>Sign Up</u></h1><br><br>
 
 <label class="username">Username</label>
 <input type="text" name="username" placeholder="Username" required></br></br>

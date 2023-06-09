@@ -22,9 +22,9 @@
   
   
   label{
-    font-family:"Lexend";
+    font-family: "Lexend";
     font-size: 25px;
-    color: #c3ff00;
+    color: #ffffff;
   }
   
   
@@ -42,9 +42,9 @@
   
     .form input{
     
-       font-family: "Lexend";
+      font-family: "Lexend";
      outline: 1;
-     background: #FFFFFF;
+     background: #ffffff;
      width: 60%;
      border: 2px solid white;
      margin: 0 0 15px;
@@ -73,7 +73,7 @@
             background: url('../IMG/k.jpg');
             background-position: center;
             background-size: cover;
-            font-family: Arial;
+            font-family: "Lexend";
             margin-top: 80px;
             background-repeat: no-repeat;
             }  
