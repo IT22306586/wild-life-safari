@@ -4,14 +4,14 @@
 
  <meta charset="UTF-8">
  <title>INQUIRE | WILD-LIFE SAFARI</title>
- <link rel="stylesheet" type="text/css" href="../wild-life-safari/CSS/Inquire.css">
+ <link rel="stylesheet" type="text/css" href="./CSS/Inquire.css">
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
  <style>
 
   body{
-    background-image: url("../wild-life-safari/IMG/bg6.jpg");
+    background-image: url("./IMG/bg6.jpg");
     background-size: cover;
     
   }
@@ -28,18 +28,18 @@ INQUIRY FORM
 </div>
 
 <div class="cont">
-  	<form>
+  	<form method="post" action="inquiresql.php">
 	  	<h3>Unite with Us</h3>
 
-		<input type="text" id="name" placeholder="Your Name" required>
+		<input type="text" name="name" placeholder="Your Name" required>
 
-		<input type="email" id="email" placeholder="Email" required>
+		<input type="email" name="email" placeholder="Email" required>
 
-		<input type="text" id="phone" placeholder="Phone Number" required>
+		<input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 
-		<input type="text" id="subject" placeholder="Subject" required>
+		<input type="text" name="subject" placeholder="Subject" required>
 
-		<textarea id="message" rows="4" placeholder="Your Massage"></textarea>
+		<textarea name="msg" placeholder="Your Message"></textarea>
 
 		<button type="submit">Send</button>
 	</form>
