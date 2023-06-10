@@ -18,7 +18,8 @@ body{
 }
 
 .img-main{
-    padding-top: 50px;
+    padding-top: 50px ;
+    width: 100px;
     text-align: center;
     vertical-align: middle;
 

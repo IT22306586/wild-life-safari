@@ -10,11 +10,12 @@
 
 <body>
 
-<?php require 'header.php'?>
+<?php require './header.php'?>
+<br><br><br> <br><br><br>
 
-    <div class="container">
-   <h1 class="main">PACKAGES</h1> 
-  <center>
+<div class="container">
+   <h1>PACKAGES</h1> 
+
    <div class="slider-frame">
         <div class="slide-images">
    
@@ -32,7 +33,7 @@
             </div>
         </div>
     </div>
-  </center>
+
 <p  class="page-description-upper">Choose from any of the below package to experience WILD-LIFE SAFARI</p> <br> <br>
         
         <div class="packages-container">
@@ -104,11 +105,8 @@
             </div>
         </div>
     </div>
-  
-
-
-
-    <?php require 'footer.php' ?>
+<br>
+    <?php require './footer.php' ?>
 
 </body>
 </html>

@@ -5,15 +5,14 @@
 
 
 body{
-    padding: 0;
-    margin: 0;
+
     background-color:rgba(185, 159, 15, 0.336);
 }
 .container {
     max-width: 1440px;
     width: 100%;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     flex-direction: column;
 }
 
@@ -22,6 +21,7 @@ h1 {
     font-family:'Lexend', sans-serif;
     font-size: 36px;
     letter-spacing: 1.1em;
+    text-align: center;
 
 }
 
@@ -33,6 +33,7 @@ max-width: 1440px;
 margin: left none;
 margin-right: none;
 margin-top: 50px;
+align-items: center;
 }
 
 /*__________SLIDE ANIMATION_______*/
@@ -58,6 +59,7 @@ margin-top: 50px;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
+    align-items: center;
     
 }
 
@@ -97,7 +99,7 @@ margin-top: 50px;
 .package-type {
     background: #868d5c;
     display: flex;
-    gap: 24px;
+    gap: 12px;
     padding: 40px;
     align-items: center;
     background-color:#f7f7f7;
@@ -109,7 +111,7 @@ margin-top: 50px;
     background: #9e929b;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 30px;
 }
 .package-type .left-col .package-title {
     padding: 10px;

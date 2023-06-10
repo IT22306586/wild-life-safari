@@ -28,25 +28,25 @@
     </div>
   
     <div class="Div1">
-  <form method="post" action="/action_page.php">
+  <form action="./donorinfo.php" method="post">
    
     <p>Donate-Information</p>
          <label for="fname" >First name:</label><br>
-         <input type="text" placeholder="First name" id="fname" name="fname" value=""><br>
+         <input type="text" placeholder="First name" id="fname" name="firstName" value=""><br>
 
          <label for="lname">Last name:</label><br>
-         <input type="text" placeholder="Last name" id="lname" name="lname" value=""><br>
+         <input type="text" placeholder="Last name" id="lname" name="lastName" value=""><br>
 
          <label for="Mnum">Mobile Number:</label><br>
-         <input type="tel" placeholder="Mobile number" id="Mnum" name="Mnum" value=""><br>
+         <input type="tel" placeholder="Mobile number" id="Mnum" name="mobileNumber" value=""><br>
 
-         <label for="emails">E-mail:</label><br>
-         <input type="email" placeholder="E-mal" id="emails" name="emails" multiple><br>
+         <label for="email">E-mail:</label><br>
+         <input type="email" placeholder="E-mail" id="email" name="email" multiple><br>
 
          <label for="amount">Amount:</label><br>
          <input type="amount" placeholder="Amount/=" id="amount" name="amount" multiple><br>
 
-         <button type="submit">DONATE</button>
+         <button type="submit">ENTER USER DETAILS</button>
 
          </form>
     </div>
@@ -71,10 +71,10 @@
             
             <button type="submit" class="pay now">Pay now</button>
             <button type="submit" class="cancel">Cancel</button>&nbsp &nbsp &nbsp &nbsp <br><br>
-            <img src="Visa.jpg">
-            <img src="MC.jpg">
-            <img src="CI.jpg">
-            <img src="AE..jpg">
+            <img src="./IMG/Visa.jpg">
+            <img src="./IMG/MC.jpg">
+            <img src="./IMG/CI.jpg">
+            <img src="./IMG/AE..jpg">
                     
               
             </form>
