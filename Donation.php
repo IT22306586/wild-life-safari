@@ -25,6 +25,8 @@
   
      <br/>Support us with your donation !<br> Without you, Our work would be impossible. Your contribution helps to ensure a better life for animals all around the globe. Every donation counts and together, we can change animals lives. 
       Thank you!</p><br><br><br>
+
+      <p><a href="./payment.php">PAY</a></p>
     </div>
   
     <div class="Div1">
