@@ -19,16 +19,16 @@
         <div class="slide-images">
    
             <div class="img-container">
-                <img src="C:\xampp\htdocs\wild-life-safari\IMG\image">
+                <img src="./IMG/WildLife02.jpg">
             </div>
             <div class="img-container">
-                <img src="images/WildLife03.jpg">
+                <img src="./IMG/WildLife03.jpg">
             </div>
             <div class="img-container">
-                <img src="images/WIldLife04.jpg">
+                <img src="./IMG/WIldLife04.jpg">
             </div>
             <div class="img-container">
-                <img src="images/WildLife05.jpg">
+                <img src="./IMG/WildLife05.jpg">
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="right-col">
-                    <img src="images/Package1.jpg">
+                    <img src="./IMG/Package1.jpg">
                 </div>
             </div>
             <div class="package-type">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="right-col">
-                    <img src="images/Package2.jpg">
+                    <img src="./IMG/Package2.jpg">
                 </div>
             </div>
             <div class="package-type">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="right-col">
-                    <img src="images/Package3.jpg">
+                    <img src="./IMG/Package3.jpg">
                 </div>
             </div>
         </div>
