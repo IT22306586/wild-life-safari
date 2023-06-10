@@ -9,7 +9,7 @@ require('adminConfig.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - Dashboard</title>
+    <title>Admin - Reservation Details</title>
 
     <!-- Add admin.css -->
     <link rel="stylesheet" href="./CSS/restable.css">
@@ -21,13 +21,12 @@ require('adminConfig.php');
                 <img src="./IMG/logowhite.png" alt="logo" height="100px" width="290px">
             </div>
 
-            <a href="./admin.php" class="current">
+            <a href="./admin.php">
                 <i class="ico">&#9733;</i>
                 <i class="txt">Dashboard</i>
             </a>
 
-            <a href="./rdetails.php">
-                <i class="ico">&#9737;</i>
+            <a href="./rdetails.php" class="current">
                 <i class="txt">Reservation</i>
             </a>
         </div>

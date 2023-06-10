@@ -28,7 +28,7 @@
 <?php require 'header.php'?>
 <br><br><br><br><br>
  <div class="formchange">
- <h1>Update Details: <span> <?php echo "$fname" . " " . "$laname"  ?></span></h1>
+ <h1>Update Details:  <?php echo "$fname" . " " . "$laname"  ?></h1>
     <div class="reservation">Wild-Life Safari Booking</div>
     <div class="main">
     <form action="./submitupdate.php" method="get">
