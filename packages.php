@@ -7,6 +7,8 @@
 </head>
 
 <body>
+<?php require 'header.php' ?>
+<br><br><br><br><br>
     <div class="container">
    <h1 class="main">PACKAGES</h1> 
   
@@ -45,7 +47,7 @@
                                 <li>Tour guide and language translator available</li>
                             </ul>
                             <h2>7500/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+                            <button class="button1" onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
                         
                     </div>
                 </div>
@@ -68,7 +70,7 @@
                                 <li>Tour guide available</li>
                             </ul>
                             <h2>5000/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+                            <button class="button1"onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
                         
                     </div>
                 </div>
@@ -89,7 +91,7 @@
                                 <h4>If you want a Tour guide You have to pay extra 1000/= to the guide </h4>
                             </ul>
                             <h2>3000/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+                            <button class="button1"onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
                         
                     </div>
                 </div>
@@ -99,11 +101,11 @@
             </div>
         </div>
     </div>
-  
+    <br>
 
 
 
 
-
+    <?php require 'footer.php' ?>
 </body>
 </html>
