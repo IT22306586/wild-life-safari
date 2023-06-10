@@ -14,7 +14,7 @@
 
     <div class="container">
    <h1 class="main">PACKAGES</h1> 
-  
+  <center>
    <div class="slider-frame">
         <div class="slide-images">
    
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-
+  </center>
 <p  class="page-description-upper">Choose from any of the below package to experience WILD-LIFE SAFARI</p> <br> <br>
         
         <div class="packages-container">
