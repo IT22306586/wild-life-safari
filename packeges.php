@@ -2,13 +2,14 @@
 <html>
 <head>
     <title> WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/packeges.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
 </head>
 
 <body>
+<?php require 'header.php' ?>
     <div class="container">
    <h1 class="main">PACKAGES</h1> 
   
@@ -16,16 +17,12 @@
         <div class="slide-images">
    
             <div class="img-container">
-                <img src="images/WildLife02.jpg">
             </div>
             <div class="img-container">
-                <img src="images/WildLife03.jpg">
             </div>
             <div class="img-container">
-                <img src="images/WIldLife04.jpg">
             </div>
             <div class="img-container">
-                <img src="images/WildLife05.jpg">
             </div>
         </div>
     </div>
@@ -33,27 +30,27 @@
 <p  class="page-description-upper">Choose from any of the below package to experience WILD-LIFE SAFARI</p> <br> <br>
         
         <div class="packages-container">
-            <div class="package-type">
-                <div class="left-col">
-                    <div class="package-title">
-                        <h3 class="main">PACKAGE 1</h3> 
-                    </div>
-                    <div class="package-description">
-                            <ul>
-                                <li>Duration : 5 hours</li>
-                                <li>Time schedule : 6.00am - 11.00am or 11.00am - 4.00pm</li>
-                                <li>Vehicle : Safari Cab</li>
-                                <li>Breakfast or Evening Tea table included</li>
-                                <li>Tour guide and language translator available</li>
-                            </ul>
-                            <h2>7500/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+        <div class="package-type">
+        <div class="left-col">
+         <div class="package-title">
+            <h3 class="main">PACKAGE 1</h3> 
+        </div>
+        <div class="package-description">
+         <ul>
+         <li>Duration : 5 hours</li>
+         <li>Time schedule : 6.00am - 11.00am or 11.00am - 4.00pm</li>
+         <li>Vehicle : Safari Cab</li>
+         <li>Breakfast or Evening Tea table included</li>
+         <li>Tour guide and language translator available</li>
+         </ul>
+         <h2>7500/= per person </h2>
+         <button class="button1">RESERVE NOW</button> 
                         
-                    </div>
-                </div>
-                <div class="right-col">
-                    <img src="images/Package1.jpg">
-                </div>
+         </div>
+         </div>
+         <div class="right-col">
+         <img src="images/Package1.jpg">
+         </div>
             </div>
             <div class="package-type">
                 <div class="left-col">
@@ -106,6 +103,6 @@
 
 
 
-
+    <?php require 'footer.php' ?>
 </body>
 </html>
