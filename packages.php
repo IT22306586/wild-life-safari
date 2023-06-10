@@ -2,19 +2,14 @@
 <html>
 <head>
     <title> WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="./CSS/packeges.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
+    <link rel="stylesheet" href="./css/packages.css">
 
 </head>
 
 <body>
-
-<?php require 'header.php'?>
-
     <div class="container">
    <h1 class="main">PACKAGES</h1> 
-  <center>
+  
    <div class="slider-frame">
         <div class="slide-images">
    
@@ -32,7 +27,7 @@
             </div>
         </div>
     </div>
-  </center>
+
 <p  class="page-description-upper">Choose from any of the below package to experience WILD-LIFE SAFARI</p> <br> <br>
         
         <div class="packages-container">
@@ -108,7 +103,7 @@
 
 
 
-    <?php require 'footer.php' ?>
+
 
 </body>
 </html>
