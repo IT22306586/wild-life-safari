@@ -19,7 +19,7 @@
         <div class="slide-images">
    
             <div class="img-container">
-                <img src="images/WildLife02.jpg">
+                <img src="C:\xampp\htdocs\wild-life-safari\IMG\image">
             </div>
             <div class="img-container">
                 <img src="images/WildLife03.jpg">
