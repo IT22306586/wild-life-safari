@@ -1,6 +1,6 @@
 <?php
 
-require('./config.php');
+require('./adminconfig.php');
 
 		$fname = $_POST['fname'];
 		$laname = $_POST['lname'];
@@ -15,7 +15,7 @@ VALUES ('', '$fname', '$laname', '$ptype', '$nic', '$email', '$acode','$number')
 
 if (mysqli_query($conn, $sql)) {
     $message = "New Reservation Created Successfully";
-    header("location:reservation.php?message=". $message);
+    header("location:rdetails.php?message=". $message);
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
