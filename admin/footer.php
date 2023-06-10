@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
             <div class="logo">
-                <a href="./index.php">
+                <a href="./admin.php">
                     <img src="./IMG/logowhite.png"/>
                 </a>
             </div>
@@ -28,10 +28,10 @@
                 </div>
                 <div class="col">
                     <div class="item">
-                        <a href="./About us.php"><p>About Us</p></a>
-                        <a href="./Terms and Conditions.php"><p>Term & Condition</p></a>
-                          <a href="./privacy policy.php"><p>Privacy Policy</p></a>
-                        <a href="./Contactus.php"><p>Contact Us</p></a>
+                        <a href="../About us.php"><p>About Us</p></a>
+                        <a href="../Terms and Conditions.php"><p>Term & Condition</p></a>
+                          <a href="../privacy policy.php"><p>Privacy Policy</p></a>
+                        <a href="../Contactus.php"><p>Contact Us</p></a>
                     </div>
                 </div>
             </div>

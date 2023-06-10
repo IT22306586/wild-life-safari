@@ -17,26 +17,21 @@ body {
 
 #pgside {
   width: 210px;
-  /* flex-shrink: 0; */
-  /* transition: width 0.2s; */
+  flex-shrink: 0;
+  transition: width 0.2s;
   background: #28313b;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }
 
 /* (B2) USER OR BRANDING */
 #pgside #pguser {
   display: flex;
-  /* align-items: center; */
   padding: 20px;
 }
 #pgside #pguser img {
   width: 242px;
   height: 70px;
   margin-right: 15px;
-  /* margin-right: 5px; */
-  /* border-radius: 50%; */
+
 }
 
 /* (B3) SIDEBAR ITEMS */

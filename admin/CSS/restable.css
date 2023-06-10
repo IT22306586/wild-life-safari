@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-span{
-  color: #dc143c;
-  font-weight: bold;
-}
 
 a {
   text-decoration: none;
@@ -31,14 +27,14 @@ a {
   width: 210px;
   flex-shrink: 0;
   transition: width 0.2s;
-  background: #283039;
+  background: #28313b;
 }
 
 /* (B2) USER OR BRANDING */
 #pgside #pguser {
   display: flex;
   /* align-items: center; */
-  padding: 5px;
+  padding: 20px;
 }
 #pgside #pguser img {
   width: 242px;
@@ -61,10 +57,10 @@ a {
   cursor: pointer;
 }
 #pgside a.current {
-  background: #7c1919;
+  background: #04AAbD;
 }
 #pgside a:hover {
-  background: #9b2323;
+  background: #04AAbD;
 }
 
 /* (B4) SIDEBAR ICONS & TEXT */
@@ -80,28 +76,17 @@ a {
 /* (C) MAIN CONTENTS */
 #pgmain {
   flex-grow: 1;
-  margin: 0px 25px 25px;
   padding: 10px;
-  /* background: #f2f2f2; */
+  background: #f2f2f2; 
 }
 
-/* Loader */
-#loader {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  background: #21242d
-    url("https://cssauthor.com/wp-content/uploads/2018/06/Bouncy-Preloader.gif")
-    no-repeat center;
-  z-index: 999;
-}
 
 /* Button Styles */
 .button {
   background-color: #ffffff; /* Green */
-  border: solid #dc143c;
+  border: 3px solid #28313b;
   padding: 10px;
-  width: 140px;
+  width: 145px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -112,28 +97,20 @@ a {
 }
 
 .buttonAdd:hover {
-  background-color: #dc143c;
+  background-color: #04AAbD;
   color: white;
   font-weight: bold;
 
-  /* border: none; */
-}
-
-.buttonAdd:hover {
-  background-color: #dc143c;
-  color: white;
-  font-weight: bold;
-  /* border: none; */
 }
 
 .buttonEdit {
   background-color: white;
-  border: solid rgb(255, 179, 0);
+  border: solid black;
   width: 100px;
 }
 
 .buttonEdit:hover {
-  background-color: rgb(255, 179, 0);
+  background-color:#04AAbD;
   color: whitesmoke;
   font-weight: bold;
   border: none;
@@ -172,7 +149,7 @@ a {
 }
 
 .styled-table thead tr {
-  background-color: #dc143c;
+  background-color: #28313b;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -187,17 +164,15 @@ a {
   border-bottom: 1px solid #dddddd;
 }
 
-/* .styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-} */
+
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #dc143c;
+  border-bottom: 2px solid #28313b;
 }
 
 .styled-table tbody tr.active-row {
   font-weight: bold;
-  color: #dc143c;
+  color: #04AAbD;
 }
 
 
