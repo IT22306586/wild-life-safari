@@ -30,6 +30,10 @@ require('adminConfig.php');
             <a href="./rdetails.php">
                 <i class="txt">Reservation</i>
             </a>
+
+            <a href="./registration/registerdetails.php">
+                <i class="txt">Registration</i>
+            </a>
         </div>
             <main id="pgmain">
                 <div class="ag-format-container">
@@ -54,6 +58,32 @@ require('adminConfig.php');
                                     $row = $result->fetch_assoc();
                                     }
                                     echo $row['Totalreservation'];
+                                    ?>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item">
+                        <a href="./registration/registerdetails.php" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Registered Users  
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                Count:
+                                <span class="ag-courses-item_date">
+                                    <?php
+
+                                    $sql = "SELECT COUNT(UserId) as 'Totalregistration' FROM register";
+                                    $result = $conn->query($sql);
+
+                                    if ($result->num_rows > 0) {
+                                    $row = $result->fetch_assoc();
+                                    }
+                                    echo $row['Totalregistration'];
                                     ?>
                                 </span>
                             </div>

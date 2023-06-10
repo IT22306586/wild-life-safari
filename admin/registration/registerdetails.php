@@ -1,5 +1,5 @@
 <?php
-require('adminConfig.php');
+require('../adminconfig.php');
 ?>
 
 <!DOCTYPE html>
@@ -12,25 +12,25 @@ require('adminConfig.php');
     <title>Admin - Reservation Details</title>
 
     <!-- Add admin.css -->
-    <link rel="stylesheet" href="./CSS/restable.css">
+    <link rel="stylesheet" href="../CSS/restable.css">
 </head>
 <body>
         <!-- Side BAr -->
         <div id="pgside">
             <div id="pguser">
-                <img src="./IMG/logowhite.png" alt="logo" height="100px" width="290px">
+                <img src="../IMG/logowhite.png" alt="logo" height="100px" width="290px">
             </div>
 
-            <a href="./admin.php">
+            <a href="../admin.php">
                 <i class="ico">&#9733;</i>
                 <i class="txt">Dashboard</i>
             </a>
 
-            <a href="./rdetails.php" class="current">
+            <a href="../rdetails.php">
                 <i class="txt">Reservation</i>
             </a>
 
-            <a href="./registration/registerdetails.php">
+            <a href="./registerdetails.php" class="current">
                 <i class="txt">Registration</i>
             </a>
         </div>
@@ -58,49 +58,37 @@ require('adminConfig.php');
         }
         ?>
 
-        <h1><span>Reserve Users</span> Table View</h1>
+        <h1><span>Registered Users</span> Table View</h1>
 
-        <button class="button buttonAdd"><a href="./addreserve.php">Add Reservation</a></button>
 
         <table class="styled-table">
             <thead>
                 <tr>
-                    <td>Cus_ID</td>
-                    <td>first Name</td>
-                    <td>Last Name</td>
-                    <td>Package Type</td>
-                    <td>NIC</td>
+                    <td>UserId</td>
+                    <td>Username</td>
                     <td>Email</td>
-                    <td>Area Code</td>
-                    <td>Phone Number</td>
-                    <td>Edit</td>
+                    <td>Password</td>
+                    <td>ReEnter_Password</td>
                     <td>Delete</td>
                 </tr>
             </thead>
 
             <?php
-            $sql = "SELECT * FROM reservation";
+            $sql = "SELECT * FROM register";
             $result = $conn->query($sql);
 
             echo "<tbody>";
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "<tr>";
-                    echo "<td>" . $row['Cus_ID'] . "</td>";
-                    echo "<td>" . $row['F_Name'] . "</td>";  
-                    echo "<td>" . $row['L_Name'] . "</td>";
-                    echo "<td>" . $row['Package_Type'] . "</td>";
-                    echo "<td>" . $row['NIC'] . "</td>";
+                    echo "<td>" . $row['UserId'] . "</td>";
+                    echo "<td>" . $row['Username'] . "</td>";  
                     echo "<td>" . $row['Email'] . "</td>";
-                    echo "<td>" . $row['Area_Code'] . "</td>";
-                    echo "<td>" . $row['Phone_Number'] . "</td>";
+                    echo "<td>" . $row['Password'] . "</td>";
+                    echo "<td>" . $row['ReEnter_Password'] . "</td>";
 
                     echo "<td>";
-                    echo "<button class = 'button buttonEdit'><a href='updatereserve.php?Cus_ID=$row[Cus_ID]&fname=$row[F_Name]&lname=$row[L_Name]&ptype=$row[Package_Type]&nic=$row[NIC]&email=$row[Email]&acode=$row[Area_Code]&number=$row[Phone_Number]'>Update</a></button>";
-                    echo "</td>";
-
-                    echo "<td>";
-                    echo "<button class = 'button buttonDel' window.location.href = 'rdetails.php';><a id='delete' href='deleteuser.php?id=$row[Cus_ID]'>Delete</a></button>";
+                    echo "<button class = 'button buttonDel' window.location.href = 'registerdetails.php';><a id='delete' href='deleteregister.php?id=$row[UserId]'>Delete</a></button>";
                     echo "</td>";
 
                     echo "</tr>";
