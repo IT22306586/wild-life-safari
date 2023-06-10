@@ -37,6 +37,10 @@ require('../adminconfig.php');
             <a href="./contactusdetails.php" class="current">
                 <i class="txt">Contact Us</i>
             </a>
+
+            <a href="../payment/paymentdetails.php">
+                <i class="txt">Payment</i>
+            </a>
         </div>
 <div id="pgmain">
 

@@ -30,7 +30,7 @@ require('../adminconfig.php');
                 <i class="txt">Reservation</i>
             </a>
 
-            <a href="./registerdetails.php" class="current">
+            <a href="../registration/registerdetails.php">
                 <i class="txt">Registration</i>
             </a>
 
@@ -38,7 +38,7 @@ require('../adminconfig.php');
                 <i class="txt">Contact Us</i>
             </a>
 
-            <a href="../payment/paymentdetails.php">
+            <a href="./paymentdetails.php" class="current">
                 <i class="txt">Payment</i>
             </a>
         </div>
@@ -66,37 +66,39 @@ require('../adminconfig.php');
         }
         ?>
 
-        <h1><span>Registered Users</span> Table View</h1>
+        <h1><span>Reservation payment</span> Table View</h1>
 
 
         <table class="styled-table">
             <thead>
                 <tr>
-                    <td>UserId</td>
-                    <td>Username</td>
-                    <td>Email</td>
-                    <td>Password</td>
-                    <td>ReEnter_Password</td>
+                    <td>Id</td>
+                    <td>Card Name</td>
+                    <td>Card Number</td>
+                    <td>EXP Month</td>
+                    <td>EXP Year</td>
+                    <td>CCV</td>
                     <td>Delete</td>
                 </tr>
             </thead>
 
             <?php
-            $sql = "SELECT * FROM register";
+            $sql = "SELECT * FROM payment";
             $result = $conn->query($sql);
 
             echo "<tbody>";
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "<tr>";
-                    echo "<td>" . $row['UserId'] . "</td>";
-                    echo "<td>" . $row['Username'] . "</td>";  
-                    echo "<td>" . $row['Email'] . "</td>";
-                    echo "<td>" . $row['Password'] . "</td>";
-                    echo "<td>" . $row['ReEnter_Password'] . "</td>";
+                    echo "<td>" . $row['id'] . "</td>";
+                    echo "<td>" . $row['cardname'] . "</td>";  
+                    echo "<td>" . $row['cardnumber'] . "</td>";
+                    echo "<td>" . $row['expmonth'] . "</td>";
+                    echo "<td>" . $row['expyear'] . "</td>";
+                    echo "<td>" . $row['cvv'] . "</td>";
 
                     echo "<td>";
-                    echo "<button class = 'button buttonDel' window.location.href = 'registerdetails.php';><a id='delete' href='deleteregister.php?id=$row[UserId]'>Delete</a></button>";
+                    echo "<button class = 'button buttonDel' window.location.href = 'paymentdetails.php';><a id='delete' href='deletepayment.php?id=$row[id]'>Delete</a></button>";
                     echo "</td>";
 
                     echo "</tr>";

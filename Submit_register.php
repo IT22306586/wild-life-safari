@@ -27,7 +27,7 @@
             }
             mysqli_stmt_bind_param($insertStmt, "ssii", $username, $email, $password, $repassword);
             mysqli_stmt_execute($insertStmt);
-            echo '<script>alert("Thank you for your registration! Submission successful!"); window.location.href = "Registeration.php";</script>';
+            echo '<script>alert("Thank you for your registration! Log in to your account!"); window.location.href = "Login.php";</script>';
         }
     } else {
         header('location:../Registeration.php');
