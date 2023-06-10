@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: rgba(240, 238, 148, 0.507);
 }
-.container {
+.containers {
     max-width: 1440px;
     width: 100%;
     display: flex;

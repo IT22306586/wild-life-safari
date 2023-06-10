@@ -9,8 +9,8 @@
 <body>
 <?php require 'header.php' ?>
 <br><br><br><br><br>
-    <div class="container">
-   <h1 class="main">PACKAGES</h1> 
+    <div class="containers">
+   <CENTER><h1 class="main">PACKAGES</h1> </CENTER>
   
    <div class="slider-frame">
         <div class="slide-images">
