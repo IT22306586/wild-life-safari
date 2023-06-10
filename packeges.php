@@ -3,30 +3,53 @@
 <head>
     <title> WILD-LIFE SAFARI</title>
     <link rel="stylesheet" href="./CSS/packeges.css">
+<<<<<<< HEAD
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
+=======
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
 </head>
 
 <body>
+<<<<<<< HEAD
 <?php require 'header.php' ?>
+=======
+
+<?php require 'header.php'?>
+
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
     <div class="container">
    <h1 class="main">PACKAGES</h1> 
-  
+  <center>
    <div class="slider-frame">
         <div class="slide-images">
    
             <div class="img-container">
+<<<<<<< HEAD
             </div>
             <div class="img-container">
             </div>
             <div class="img-container">
             </div>
             <div class="img-container">
+=======
+                <img src="./IMG/WildLife02.jpg">
+            </div>
+            <div class="img-container">
+                <img src="./IMG/WildLife03.jpg">
+            </div>
+            <div class="img-container">
+                <img src="./IMG/WIldLife04.jpg">
+            </div>
+            <div class="img-container">
+                <img src="./IMG/WildLife05.jpg">
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
             </div>
         </div>
     </div>
-
+  </center>
 <p  class="page-description-upper">Choose from any of the below package to experience WILD-LIFE SAFARI</p> <br> <br>
         
         <div class="packages-container">
@@ -46,11 +69,19 @@
          <h2>7500/= per person </h2>
          <button class="button1">RESERVE NOW</button> 
                         
+<<<<<<< HEAD
          </div>
          </div>
          <div class="right-col">
          <img src="images/Package1.jpg">
          </div>
+=======
+                    </div>
+                </div>
+                <div class="right-col">
+                    <img src="./IMG/Package1.jpg">
+                </div>
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
             </div>
             <div class="package-type">
                 <div class="left-col">
@@ -72,7 +103,7 @@
                     </div>
                 </div>
                 <div class="right-col">
-                    <img src="images/Package2.jpg">
+                    <img src="./IMG/Package2.jpg">
                 </div>
             </div>
             <div class="package-type">
@@ -93,7 +124,7 @@
                     </div>
                 </div>
                 <div class="right-col">
-                    <img src="images/Package3.jpg">
+                    <img src="./IMG/Package3.jpg">
                 </div>
             </div>
         </div>
@@ -102,7 +133,12 @@
 
 
 
+<<<<<<< HEAD
 
     <?php require 'footer.php' ?>
+=======
+    <?php require 'footer.php' ?>
+
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
 </body>
 </html>

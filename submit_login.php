@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location: index.php");
     } elseif ($adminRow) {
         // Admin authentication successful
-        header("location: Registeration.php");
+        header("location: ./admin.php.php");
     } else {
         // Invalid username or password
         echo "Username or password is incorrect";
