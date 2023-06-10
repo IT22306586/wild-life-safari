@@ -14,7 +14,7 @@
  <?php require 'header.php'?>
 
     <div class="main">
-       DONATE
+      <h1> DONATE </h1>
     </div>
     
     <div class ="img-main">
