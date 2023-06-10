@@ -7,6 +7,8 @@
 </head>
 
 <body>
+<?php require 'header.php' ?>
+<br><br><br><br><br>
     <div class="container">
    <h1 class="main">PACKAGES</h1> 
   
@@ -99,11 +101,11 @@
             </div>
         </div>
     </div>
-  
+    <br>
 
 
 
 
-
+    <?php require 'footer.php' ?>
 </body>
 </html>
