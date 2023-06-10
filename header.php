@@ -21,7 +21,7 @@
             </div>
         <div class="nav-bottom-bar">
             <ul>
-                <a href="./index.php">HOME</a>
+                <a href="./home.php">HOME</a>
                 <a href="./packeges.php">PACKAGES</a>
                 <a href="./reservation.php">RESERVATION</a>
                 <a href="./Donation.php">DONATION</a>
