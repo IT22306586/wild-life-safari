@@ -30,11 +30,11 @@ require('../adminconfig.php');
                 <i class="txt">Reservation</i>
             </a>
 
-            <a href="./registerdetails.php" class="current">
+            <a href="../registration/registerdetails.php">
                 <i class="txt">Registration</i>
             </a>
 
-            <a href="../contactus.php/contactusdetails.php">
+            <a href="./contactusdetails.php" class="current">
                 <i class="txt">Contact Us</i>
             </a>
         </div>
@@ -68,31 +68,29 @@ require('../adminconfig.php');
         <table class="styled-table">
             <thead>
                 <tr>
-                    <td>UserId</td>
-                    <td>Username</td>
+                    <td>Id</td>
+                    <td>Name</td>
                     <td>Email</td>
-                    <td>Password</td>
-                    <td>ReEnter_Password</td>
+                    <td>Message</td>
                     <td>Delete</td>
                 </tr>
             </thead>
 
             <?php
-            $sql = "SELECT * FROM register";
+            $sql = "SELECT * FROM contactus";
             $result = $conn->query($sql);
 
             echo "<tbody>";
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "<tr>";
-                    echo "<td>" . $row['UserId'] . "</td>";
-                    echo "<td>" . $row['Username'] . "</td>";  
-                    echo "<td>" . $row['Email'] . "</td>";
-                    echo "<td>" . $row['Password'] . "</td>";
-                    echo "<td>" . $row['ReEnter_Password'] . "</td>";
+                    echo "<td>" . $row['id'] . "</td>";
+                    echo "<td>" . $row['name'] . "</td>";  
+                    echo "<td>" . $row['email'] . "</td>";
+                    echo "<td>" . $row['msg'] . "</td>";
 
                     echo "<td>";
-                    echo "<button class = 'button buttonDel' window.location.href = 'registerdetails.php';><a id='delete' href='deleteregister.php?id=$row[UserId]'>Delete</a></button>";
+                    echo "<button class = 'button buttonDel' window.location.href = 'contactusdetails.php';><a id='delete' href='deletecontactuser.php?id=$row[id]'>Delete</a></button>";
                     echo "</td>";
 
                     echo "</tr>";

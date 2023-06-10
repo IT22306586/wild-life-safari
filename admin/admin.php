@@ -34,6 +34,10 @@ require('adminConfig.php');
             <a href="./registration/registerdetails.php">
                 <i class="txt">Registration</i>
             </a>
+
+            <a href="./contactus.php/contactusdetails.php">
+                <i class="txt">Contact Us</i>
+            </a>
         </div>
             <main id="pgmain">
                 <div class="ag-format-container">
@@ -84,6 +88,32 @@ require('adminConfig.php');
                                     $row = $result->fetch_assoc();
                                     }
                                     echo $row['Totalregistration'];
+                                    ?>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item">
+                        <a href="./rdetails.php" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Cuntact Us  
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                Count:
+                                <span class="ag-courses-item_date">
+                                    <?php
+
+                                    $sql = "SELECT COUNT(id) as 'Totalmassages' FROM contactus";
+                                    $result = $conn->query($sql);
+
+                                    if ($result->num_rows > 0) {
+                                    $row = $result->fetch_assoc();
+                                    }
+                                    echo $row['Totalmassages'];
                                     ?>
                                 </span>
                             </div>

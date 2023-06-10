@@ -33,6 +33,10 @@ require('adminConfig.php');
             <a href="./registration/registerdetails.php">
                 <i class="txt">Registration</i>
             </a>
+
+            <a href="./contactus.php/contactusdetails.php">
+                <i class="txt">Contact Us</i>
+            </a>
         </div>
 <div id="pgmain">
 
