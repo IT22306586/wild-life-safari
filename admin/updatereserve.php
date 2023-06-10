@@ -32,7 +32,7 @@
     <div class="reservation">Wild-Life Safari Booking</div>
     <div class="main">
     <form action="./submitupdate.php" method="get">
-    <label for="Cus_ID"><h2>User ID: </h2></label>
+    <label for="Cus_ID"><h2 class="name">User ID: </h2></label>
         <input type="number" name="Cus_ID" id="Cus_ID" value=<?php echo $Cus_ID ?> >
         <div id="name">
             <h2 class="name">Name:</h2>

@@ -3,12 +3,19 @@
 <head>
     <title> WILD-LIFE SAFARI</title>
     <link rel="stylesheet" href="./CSS/packeges.css">
+<<<<<<< HEAD
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
+=======
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
 
 </head>
 
 <body>
+<<<<<<< HEAD
+<?php require 'header.php' ?>
+=======
 
 <?php require './header.php'?>
 <br><br><br> <br><br><br>
@@ -16,10 +23,25 @@
 <div class="container">
    <h1>PACKAGES</h1> 
 
+<<<<<<< HEAD
+=======
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
+    <div class="container">
+   <h1 class="main">PACKAGES</h1> 
+  <center>
+>>>>>>> 165a820d2559f6549585bedc35d226ba80cbc284
    <div class="slider-frame">
         <div class="slide-images">
    
             <div class="img-container">
+<<<<<<< HEAD
+            </div>
+            <div class="img-container">
+            </div>
+            <div class="img-container">
+            </div>
+            <div class="img-container">
+=======
                 <img src="./IMG/WildLife02.jpg">
             </div>
             <div class="img-container">
@@ -30,6 +52,7 @@
             </div>
             <div class="img-container">
                 <img src="./IMG/WildLife05.jpg">
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
             </div>
         </div>
     </div>
@@ -37,27 +60,35 @@
 <p  class="page-description-upper">Choose from any of the below package to experience WILD-LIFE SAFARI</p> <br> <br>
         
         <div class="packages-container">
-            <div class="package-type">
-                <div class="left-col">
-                    <div class="package-title">
-                        <h3 class="main">PACKAGE 1</h3> 
-                    </div>
-                    <div class="package-description">
-                            <ul>
-                                <li>Duration : 5 hours</li>
-                                <li>Time schedule : 6.00am - 11.00am or 11.00am - 4.00pm</li>
-                                <li>Vehicle : Safari Cab</li>
-                                <li>Breakfast or Evening Tea table included</li>
-                                <li>Tour guide and language translator available</li>
-                            </ul>
-                            <h2>7500/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+        <div class="package-type">
+        <div class="left-col">
+         <div class="package-title">
+            <h3 class="main">PACKAGE 1</h3> 
+        </div>
+        <div class="package-description">
+         <ul>
+         <li>Duration : 5 hours</li>
+         <li>Time schedule : 6.00am - 11.00am or 11.00am - 4.00pm</li>
+         <li>Vehicle : Safari Cab</li>
+         <li>Breakfast or Evening Tea table included</li>
+         <li>Tour guide and language translator available</li>
+         </ul>
+         <h2>7500/= per person </h2>
+         <button class="button1">RESERVE NOW</button> 
                         
+<<<<<<< HEAD
+         </div>
+         </div>
+         <div class="right-col">
+         <img src="images/Package1.jpg">
+         </div>
+=======
                     </div>
                 </div>
                 <div class="right-col">
                     <img src="./IMG/Package1.jpg">
                 </div>
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
             </div>
             <div class="package-type">
                 <div class="left-col">
@@ -105,8 +136,21 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 <br>
     <?php require './footer.php' ?>
+=======
+  
 
+
+
+<<<<<<< HEAD
+
+    <?php require 'footer.php' ?>
+=======
+    <?php require 'footer.php' ?>
+>>>>>>> 165a820d2559f6549585bedc35d226ba80cbc284
+
+>>>>>>> b2700dc84f6e32fbccfedffa65aba912542a8241
 </body>
 </html>
