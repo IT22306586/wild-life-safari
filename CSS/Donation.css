@@ -1,62 +1,92 @@
 
+*{
+    box-sizing: border-box
+}
+
+
 body{
     padding: 0;
     margin: 0;
+    background-color: #f5cd91;
 }
 .main{
-    font-family:'Lexend', sans-serif;
-    font-size: 50px;
+    padding-top: 120px;
+    font-family:"Lexend";
+    font-size: 35px;
     letter-spacing: 1.1em;
     text-align: center;
 }
 
 .img-main{
-    padding-top: 100px;
-  text-align: center;
-  vertical-align: middle;
+    padding-top: 50px;
+    text-align: center;
+    vertical-align: middle;
 
 }
-.paragraph{
+.para{
+
     font-family:"Lexend";
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     
 }
+form{
+    padding-left: 150px;
+}
 
-.Form-header{
-    
-    font-family:"Lexend";
-    font-size: 30px;
+form p{
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "Lexend";
+}
+
+form input{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: 2px;;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 25px;
+}
+form label{
+    font-size: 15px;
+    font-family: "Lexend";
+}
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
 }
 
 .Div1{
-    -ms-flex: 25%;
+   
     flex: 25%;
-   background-color: (185, 159, 15, 0.336);
+    padding-top: 50px;
+     margin-left: 80px;
+    background-color: (185, 159, 15, 0.336);
     width:50%;
     float:left
 }
 
-.Div2{
-    background-color: (185, 159, 15, 0.336);
-    width: 50%;
-    float: right;
-}
-
 .payment {
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
+ 
     color: #64a4ac;
-   
-    border: 2px solid #f1f1f1;
-   
-    left: 25%;
-    right: 50%;
-   
-    z-index: 1;
-    width: 50%;
+    width: 30%;
+    height: 40%;
     padding: 30px;
     text-align: auto;
-    margin: 20px 200px;
+    margin: 20px;
+    margin-left: 60%;
   }
 
