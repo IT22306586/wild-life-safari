@@ -2,7 +2,7 @@
 <html>
 <head>
     <title> WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/packages.css">
 
 </head>
 
