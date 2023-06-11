@@ -13,7 +13,7 @@
       $stmt->bind_param("siiii", $cardname, $cardnumber, $expmonth, $expyear, $cvv);
 
       if ($stmt->execute()) {
-          echo '<script>alert("Payment Successful!\n\nThank you for your payment. Enjoy your wild-life safari!"); window.location.href = "payment.php";</script>';
+          echo '<script>alert("Payment Successful!\n\nThank you for your payment. Enjoy your wild-life safari!"); window.location.href = "index.php";</script>';
       } else {
           echo '<script>alert("Payment Failed!\n\nPlease try again later."); window.location.href = "payment.php";</script>';
       }

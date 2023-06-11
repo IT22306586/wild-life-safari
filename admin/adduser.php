@@ -14,7 +14,7 @@ $sql = "INSERT INTO reservation(Cus_ID, F_Name, L_Name, Package_Type, NIC, Email
 VALUES ('', '$fname', '$laname', '$ptype', '$nic', '$email', '$acode','$number')";
 
 if (mysqli_query($conn, $sql)) {
-    $message = "New Reservation Created Successfully";
+    $message = "New Record Created Successfully";
     header("location:rdetails.php?message=". $message);
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);

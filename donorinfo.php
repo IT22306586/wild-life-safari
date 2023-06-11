@@ -14,7 +14,7 @@
         values(?,?,?,?,?)");
      $stmt->bind_param("ssisi",$firstName, $lastName, $mobileNumber, $email, $amount);
     $stmt->execute();
-    echo '<script>alert("Thank you for your information! Submission successful!"); window.location.href = "Donation.php";</script>';
+    echo '<script>window.location.href = "Donation.php";</script>';
   
     $stmt->close();
     $conn->close();

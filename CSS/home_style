@@ -48,8 +48,9 @@
 
 .topic {
     text-align: center;
-    font-size: 80px;
-    font-weight: 100px;
+    font-size: 70px;
+    font-weight: 80px;
+    font-family: "Lexend";
 }
 
 .option-card{
@@ -78,11 +79,15 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: "Lexend";
+  font-size: 15px;
 }
 
 .des{
   text-align: center;
   padding: 5px;
+  font-family: "Lexend";
+
 }
 button{
   margin-top: 30px;

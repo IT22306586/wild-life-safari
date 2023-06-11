@@ -34,7 +34,7 @@
 
         <div class="content">
             <p>
-            Kanneliya is one of the areas that belongs to the KDN forest reservation complex situated in the outskirts of Galle. The complex is completed by Dediyagala and Nakiyadeniya. It is a tropical rainforest that harbors a large number of faunal and floral species while providing home to a range of unique microhabitats. It is only second to the Sinharaja forest in terms of species richness. The Gin Ganga river complex nourishes Kanneliya while the forest is dotted with a number of small water falls and natural pools.
+            Kanneliya is one of the areas that belongs to the KDN(Kanneliya-Dediyagala-Nakiyadeniya) forest reservation complex situated in the outskirts of Galle. The complex is completed by Dediyagala and Nakiyadeniya. It is a tropical rainforest that harbors a large number of faunal and floral species while providing home to a range of unique microhabitats. It is only second to the Sinharaja forest in terms of species richness. The Gin Ganga river complex nourishes Kanneliya while the forest is dotted with a number of small water falls and natural pools.
             It is a perfect getaway for hikers and bird watchers as the wonders to explore are endless. With a mean annual rainfall of around 3750 mm you can always expect a slight drizzle as you make your way through the thick canopy. The chirping of the birds and calling of the frogs provides a subtle auditory complement to the entire experience. A swim or a bath in one of the natural pools is a must during a visit to Kanneliya. In addition, the famous Anagimale fall is just 2km from the entrance.</p>
         </div>
 
