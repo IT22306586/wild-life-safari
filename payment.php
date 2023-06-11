@@ -73,7 +73,7 @@
       <button type="submit">PAY</button>
     </form>
   </div>
-
+  <br>
   <?php require 'footer.php'; ?>
 
 </body>
