@@ -171,7 +171,7 @@
 </div>
 </div>  
 
-<!-- SLIDER FUNCTAIONALITY -->
+<!-- SLIDER  -->
 
 <script src= "./js/slider.js"></script>   
 <?php require 'footer.php' ?>
