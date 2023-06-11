@@ -84,11 +84,3 @@
     border-radius: 30px;
   }
   
-  @media (max-width: 800px) {
-    .row {
-      flex-direction: column-reverse;
-    }
-    .col-25 {
-      margin-bottom: 20px;
-    }
-  }
