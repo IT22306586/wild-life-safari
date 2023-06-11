@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wildlife Sri Lanka</title>
+  <title>LOGIN | WILD LIFE SAFARI</title>
 
   <link rel="stylesheet"  href="./CSS/login.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">

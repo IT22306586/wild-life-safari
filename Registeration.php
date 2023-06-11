@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>Registeration</title>
+<title>REGISTATION | WILD LIFE SAFARI</title>
 <link rel="stylesheet" href="./CSS/Registeration.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
@@ -10,7 +10,7 @@
 
 <body>
 <?php require 'header.php' ?>
-<form action="./Submit_register.php"method="post" class="form" align="center">
+<form action="./Submit_register.php"method="post" class="form" align="center" onsubmit="return validateForm()">
     <h1>Sign Up </h1><br><br>
 
 <label class="username">Username</label>
@@ -30,6 +30,20 @@
 <a href="./Login.php">Log-in</a></p>
 </form>
 <?php require 'footer.php' ?>
+
+<script>
+    function validateForm() {
+        var password = document.forms[0].password.value;
+        var repassword = document.forms[0].repassword.value;
+
+        if (password !== repassword) {
+            alert("Passwords do not match. Please re-enter.");
+            return false;
+        }
+
+        return true;
+    }
+</script>
 </body>
 
 </html>

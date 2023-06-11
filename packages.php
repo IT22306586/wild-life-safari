@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title> WILD-LIFE SAFARI</title>
+    <title>PACKAGES | WILD-LIFE SAFARI</title>
     <link rel="stylesheet" href="./css/packages.css">
 
 </head>
