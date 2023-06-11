@@ -11,11 +11,11 @@ require('../adminconfig.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - Reservation Details</title>
 
-    <!-- Add admin.css -->
+
     <link rel="stylesheet" href="../CSS/restable.css">
 </head>
 <body>
-        <!-- Side BAr -->
+        <!-- sidebar -->
         <div id="pgside">
             <div id="pguser">
                 <img src="../IMG/logowhite.png" alt="logo" height="100px" width="290px">
@@ -43,7 +43,7 @@ require('../adminconfig.php');
             </a>
         </div>
 <div id="pgmain">
-
+<!-- Messages for create,update,delete -->
         <?php
         if (isset($_GET['message'])) {
             $msg = $_GET['message'];
@@ -68,7 +68,7 @@ require('../adminconfig.php');
 
         <h1><span>Registered Users</span> Table View</h1>
 
-
+<!-- table -->
         <table class="styled-table">
             <thead>
                 <tr>
