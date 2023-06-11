@@ -20,13 +20,6 @@
 <div class="container">
    <h1>PACKAGES</h1> 
 
-
-
-
-    <div class="container">
-   <h1 class="main">PACKAGES</h1> 
- 
-
    <div class="slider-frame">
         <div class="slide-images">
    
