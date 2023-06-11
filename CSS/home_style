@@ -75,6 +75,9 @@
 .ctitle{
   text-align: center;
   padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .des{
