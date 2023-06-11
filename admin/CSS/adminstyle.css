@@ -27,7 +27,7 @@ body {
   display: flex;
   padding: 20px;
 }
-#pgside #pguser img {
+#pgside #pguser a img {
   width: 242px;
   height: 70px;
   margin-right: 15px;

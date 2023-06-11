@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location: ./admin/admin.php");
     } else {
         // Invalid username or password
-        echo "Username or password is incorrect";
+        echo '<script>alert("User name and password is incorrect!"); window.location.href = "Login.php";</script>';
     }
 }
 ?>

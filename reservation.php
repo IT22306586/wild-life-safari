@@ -48,7 +48,7 @@
         <center>
         <button  type="submit" name="submit" value="Send Data"> Submit </button>
         </center>
-        
+       <br> 
     </form>
   </div>
 <center>
@@ -61,7 +61,7 @@
   </div>
   </center>
  </div> 
-
+<br>
 <?php require 'footer.php' ?>
 </body>
 

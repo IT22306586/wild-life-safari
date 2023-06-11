@@ -64,7 +64,8 @@
     </form>
   </div>
  </div> 
-
+<br>
+<br>
 <?php require 'footer.php' ?>
 </body>
 

@@ -22,6 +22,11 @@ require('adminConfig.php');
                 <img src="./IMG/logowhite.png" alt="logo" height="100px" width="290px">
             </div>
 
+            <a href="../index.php">
+                <i class="ico">&#9733;</i>
+                <i class="txt">Home</i>
+            </a>
+
             <a href="./admin.php" class="current">
                 <i class="ico">&#9733;</i>
                 <i class="txt">Dashboard</i>
