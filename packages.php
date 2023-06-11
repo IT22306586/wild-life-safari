@@ -48,7 +48,7 @@
                             </ul>
                             <h2>7500/= per person </h2>
                             <button class="button1" onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
-                        
+                              
                     </div>
                 </div>
                 <div class="right-col">

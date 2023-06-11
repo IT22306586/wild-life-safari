@@ -27,10 +27,10 @@
 </div>
 
       <label for="cname">Name on Card</label>
-      <input type="text" name="cardname" placeholder="John More Doe">
+      <input type="text" name="cardname" placeholder="John More Doe" required>
       
       <label for="ccnum">Credit card number</label>
-      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
       
   <div class="month-year">
   <div class="input-con">
