@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
-</head>
+    
 </head>
 <body>
 <?php require 'header.php' ?>
@@ -46,7 +46,7 @@
         <label class="phone-number"> Phone Number: </label><br><br>
         
         <center>
-        <button  type="submit" name="submit" value="Send Data" onclick="openPopup()"> Submit </button>
+        <button  type="submit" name="submit" value="Send Data"> Submit </button>
         </center>
         
     </form>

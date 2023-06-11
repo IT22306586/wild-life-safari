@@ -2,16 +2,13 @@
 <html>
 <head>
     <title> WILD-LIFE SAFARI</title>
-    <link rel="stylesheet" href="./CSS/packeges.css">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
+    <link rel="stylesheet" href="./css/packages.css">
 
 </head>
 
 <body>
-
 <?php require 'header.php' ?>
+<<<<<<< HEAD
 
 
 
@@ -20,18 +17,16 @@
 <div class="container">
    <h1>PACKAGES</h1> 
 
+=======
+<br><br><br><br><br>
+    <div class="containers">
+   <CENTER><h1 class="main">PACKAGES</h1> </CENTER>
+  
+>>>>>>> 355d4b503aa91afbd3e58e667f80e5c750475c8c
    <div class="slider-frame">
         <div class="slide-images">
    
             <div class="img-container">
-
-            </div>
-            <div class="img-container">
-            </div>
-            <div class="img-container">
-            </div>
-            <div class="img-container">
-
                 <img src="./IMG/WildLife02.jpg">
             </div>
             <div class="img-container">
@@ -42,7 +37,6 @@
             </div>
             <div class="img-container">
                 <img src="./IMG/WildLife05.jpg">
-
             </div>
         </div>
     </div>
@@ -64,21 +58,13 @@
                                 <li>Tour guide and language translator available</li>
                             </ul>
                             <h2>7500/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+                            <button class="button1" onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
                         
-
-         </div>
-         </div>
-         <div class="right-col">
-         <img src="images/Package1.jpg">
-         </div>
-
                     </div>
                 </div>
                 <div class="right-col">
                     <img src="./IMG/Package1.jpg">
                 </div>
-
             </div>
             <div class="package-type">
                 <div class="left-col">
@@ -95,7 +81,7 @@
                                 <li>Tour guide available</li>
                             </ul>
                             <h2>5000/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+                            <button class="button1"onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
                         
                     </div>
                 </div>
@@ -116,7 +102,7 @@
                                 <h4>If you want a Tour guide You have to pay extra 1000/= to the guide </h4>
                             </ul>
                             <h2>3000/= per person </h2>
-                            <button class="button1">RESERVE NOW</button> 
+                            <button class="button1"onclick="window.location.href='reservation.php';">RESERVE NOW</button> 
                         
                     </div>
                 </div>
@@ -126,19 +112,11 @@
             </div>
         </div>
     </div>
-
-<br>
-    <?php require './footer.php' ?>
+    <br>
 
 
 
 
-
-
-
-    
-
-
-
+    <?php require 'footer.php' ?>
 </body>
 </html>

@@ -1,17 +1,20 @@
-
-*{
-    box-sizing: border-box
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap');
 
 body{
-
-    background-color:rgba(185, 159, 15, 0.336);
+    padding: 0;
+    margin: 0;
+    background-color: rgba(240, 238, 148, 0.507);
 }
-.container {
+.containers {
     max-width: 1440px;
     width: 100%;
+<<<<<<< HEAD:CSS/packeges.css
     /*align-items: center;*/
+=======
+    display: flex;
+    align-items: center;
+>>>>>>> 355d4b503aa91afbd3e58e667f80e5c750475c8c:CSS/packages.css
     flex-direction: column;
     text-align: center;
 }
@@ -21,19 +24,17 @@ h1 {
     font-family:'Lexend', sans-serif;
     font-size: 36px;
     letter-spacing: 1.1em;
-    text-align: center;
 
 }
 
-.slider-frame{
+.slider-frame {
 
 overflow: hidden;
 height: 450px;
 max-width: 1440px;
 margin: left none;
 margin-right: none;
-margin-top: 50px;
-align-items: center;
+margin-top: 10px;
 }
 
 /*__________SLIDE ANIMATION_______*/
@@ -59,7 +60,6 @@ align-items: center;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
-    align-items: center;
     
 }
 
@@ -69,7 +69,6 @@ align-items: center;
      width: 1235px;
     position: relative;
     float:left ;
-    background-image:"../IMG/WildLife02.jpg";
 
 }
 /*___________END OF ANIMATION PART______________*/
@@ -100,7 +99,7 @@ align-items: center;
 .package-type {
     background: #868d5c;
     display: flex;
-    gap: 12px;
+    gap: 24px;
     padding: 40px;
     align-items: center;
     background-color:#f7f7f7;
@@ -112,7 +111,7 @@ align-items: center;
     background: #9e929b;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
 }
 .package-type .left-col .package-title {
     padding: 10px;

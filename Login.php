@@ -28,12 +28,12 @@
         <center>
           <button type="submit">Login</button>
         </center><br><br><br>
-        <a href="./Registeration.php" style="color:#FFFFFF" text-decoration="none">Register</a><br><br>
+        <p>Dont have an account:<a href="./Registeration.php" style="color:#FFFFFF" text-decoration="none">Register</a><br><br></p>
         
       </form>
     </div>
   </div>
-  <script src="login.js"></script>
+  
 
 
 

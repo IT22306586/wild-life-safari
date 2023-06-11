@@ -57,12 +57,12 @@
       <label for="expyear">Exp Year</label>
       <div class="year">
         <select name="expyear">
-          <option value="01">2023</option>
-          <option value="02">2024</option>
-          <option value="03">2025</option>
-          <option value="04">2026</option>
-          <option value="05">2027</option>
-          <option value="06">2028</option>
+          <option>2023</option>
+          <option>2024</option>
+          <option>2025</option>
+          <option>2026</option>
+          <option>2027</option>
+          <option>2028</option>
         </select>
       </div>
   </div>
