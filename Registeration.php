@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>Registeration</title>
+<title>REGISTATION | WILD LIFE SAFARI</title>
 <link rel="stylesheet" href="./CSS/Registeration.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Libre+Baskerville:wght@700&display=swap">
