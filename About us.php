@@ -24,7 +24,7 @@
   <div class="topic">
     <p>ABOUT US</p>
   </div>
-
+<!-- data about about us -->
   <div class="content">
     <p>
       The Wild-Life Safari website,Srilanka's newest and trusted safari booking site.We believe that Success is measured by the number of satisfied customers and that is always been our endeavor.We choose the best accommodation, the best vehicle to travel and we make the best arrangements for unforgettable tours.We make wonderful arrangements for family tours. We make special arrangements 
