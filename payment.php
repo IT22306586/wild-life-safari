@@ -14,7 +14,7 @@
   <div class="topic">
     PAYMENT  
   </div>
-
+<!-- create form for payment -->
   <div class="cont"> 
     <form method="post" action="paymentsql.php">
       <h3>Unite with Us</h3>

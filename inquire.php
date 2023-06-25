@@ -21,11 +21,14 @@
 
 <body>
 
+<!-- connect header  -->
 <?php require 'header.php'?>
 
 <div class="topic">
 INQUIRY FORM
 </div>
+
+<!-- create form for inquire -->
 
 <div class="cont">
   	<form method="post" action="inquiresql.php">
@@ -45,6 +48,8 @@ INQUIRY FORM
 	</form>
 </div>
 
+
+<!-- connect footer  -->
 <?php require 'footer.php'?>
 
 </body>
