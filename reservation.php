@@ -36,7 +36,7 @@
             <option value="Package3">Package-3</option>
         </select>
         <h2 class="name"> NIC: </h2>
-        <input class="nic" type="text" name="nic" required  placeholder="-123456789V-">
+        <input class="nic" type="text" name="nic" required  placeholder="-123456789V-" >
         <h2 class="name"> Email: </h2>
         <input class="email" type="text" name="email" required  placeholder="-email-">
         <h2 class="name"> Phone: </h2>
@@ -51,16 +51,7 @@
        <br> 
     </form>
   </div>
-<center>
-  <div class="popup" id="popup">
-    <img src="./IMG/404-tick.png">
-    <h2>Thank You!</h2>
-    <p>Your Details has been successfully submited.<br>Click Pay!</p>
-    <button type="button" onclick="document.location='pay.php'">Pay</button>
-
-  </div>
-  </center>
- </div> 
+</div> 
 <br>
 <?php require 'footer.php' ?>
 </body>
