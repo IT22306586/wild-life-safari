@@ -70,7 +70,7 @@ require('../adminconfig.php');
         }
         ?>
 
-        <h1><span>Contact Us</span> Table View</h1>
+        <h1><span>Donor Information</span> Table View</h1>
 
 <!-- table -->
         <table class="styled-table">
