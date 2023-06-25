@@ -34,6 +34,10 @@ require('../adminconfig.php');
                 <i class="txt">Registration</i>
             </a>
 
+            <a href="../donation/donationdetails.php">
+                <i class="txt">Donation</i>
+            </a>
+
             <a href="../contactus.php/contactusdetails.php">
                 <i class="txt">Contact Us</i>
             </a>

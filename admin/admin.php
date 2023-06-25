@@ -40,6 +40,10 @@ require('adminConfig.php');
                 <i class="txt">Registration</i>
             </a>
 
+            <a href="./donation/donationdetails.php">
+                <i class="txt">Donation</i>
+            </a>
+
             <a href="./contactus.php/contactusdetails.php">
                 <i class="txt">Contact Us</i>
             </a>
@@ -104,7 +108,33 @@ require('adminConfig.php');
                     </div>
 
                     <div class="ag-courses_item">
-                        <a href="./rdetails.php" class="ag-courses-item_link">
+                        <a href="./donation/donationdetails.php" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Donor Information 
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                Count:
+                                <span class="ag-courses-item_date">
+                                    <?php
+
+                                    $sql = "SELECT COUNT(Id) as 'Totaldonor' FROM donorinfo";
+                                    $result = $conn->query($sql);
+
+                                    if ($result->num_rows > 0) {
+                                    $row = $result->fetch_assoc();
+                                    }
+                                    echo $row['Totaldonor'];
+                                    ?>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item">
+                        <a href="./contactus.php/contactusdetails.php" class="ag-courses-item_link">
                             <div class="ag-courses-item_bg"></div>
 
                             <div class="ag-courses-item_title">
@@ -130,7 +160,7 @@ require('adminConfig.php');
                     </div>
 
                     <div class="ag-courses_item">
-                        <a href="./registration/registerdetails.php" class="ag-courses-item_link">
+                        <a href="./payment/paymentdetails.php" class="ag-courses-item_link">
                             <div class="ag-courses-item_bg"></div>
 
                             <div class="ag-courses-item_title">
