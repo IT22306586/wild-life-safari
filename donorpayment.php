@@ -1,5 +1,6 @@
 <?php
 
+  //create connection
     include('./config.php');
 
     $cardNumber = $_POST['cardNumber'];
@@ -12,9 +13,9 @@
    
         $stmt = $conn->prepare("insert into donorpayment(cardNumber,cardHolder,expire,cvv)
         values(?,?,?,?)");
-     $stmt->bind_param("issi",$cardNumber, $cardHolder, $expire, $cvv);
-    $stmt->execute();
-    echo '<script>alert("payment successful!"); window.location.href = "Donation.php";</script>';
+        $stmt->bind_param("issi",$cardNumber, $cardHolder, $expire, $cvv);
+        $stmt->execute();
+        echo '<script>alert("payment successful!"); window.location.href = "Donation.php";</script>';
   
     $stmt->close();
     $conn->close();
