@@ -36,7 +36,7 @@
             <option value="Package3">Package-3</option>
         </select>
         <h2 class="name"> NIC: </h2>
-        <input class="nic" type="text" name="nic" required  placeholder="-123456789V-" >
+        <input class="nic" type="text" name="nic" required maxlength="12" size="12" placeholder="-123456789V-" >
         <h2 class="name"> Email: </h2>
         <input class="email" type="text" name="email" required  placeholder="-email-">
         <h2 class="name"> Phone: </h2>

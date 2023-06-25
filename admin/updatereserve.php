@@ -49,13 +49,13 @@
             <option value="Package3">Package-3</option>
         </select>
         <h2 class="name"> NIC: </h2>
-        <input class="nic" type="text" name="nic" required  placeholder="Ex:-123456789V" value=<?php echo $nic ?>>
+        <input class="nic" type="text" name="nic" required maxlength="12" size="12" placeholder="-123456789V-" value=<?php echo $nic ?>>
         <h2 class="name"> Email: </h2>
         <input class="email" type="text" name="email" required  placeholder="-email-" value=<?php echo $email ?>>
         <h2 class="name"> Phone: </h2>
-        <input class="code" type="text" name="acode" required  maxlength="3" size="3" placeholder="Ex:+94" value=<?php echo $acode ?>>
+        <input class="code" type="text" name="acode" required  maxlength="3" size="3" placeholder="+94" value=<?php echo $acode ?>>
         <label class="area-code ">  Area code: </label>
-        <input class="number" type="text" name="number" required  maxlength="9" size="9" placeholder="Ex:- 771234567" value=<?php echo $number ?>>
+        <input class="number" type="text" name="number" required  maxlength="9" size="9" placeholder="-771234567-" value=<?php echo $number ?>>
         <label class="phone-number"> Phone Number: </label><br>
         <CENTER>
         <button  type="submit" name="submit" value="Update"> Update </button>

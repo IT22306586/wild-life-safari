@@ -43,7 +43,7 @@ require('adminConfig.php');
             </a>
         </div>
 <div id="pgmain">
-
+<!-- massages when record create,delete,update -->
         <?php
         if (isset($_GET['message'])) {
             $msg = $_GET['message'];
@@ -65,7 +65,7 @@ require('adminConfig.php');
             }
         }
         ?>
-
+<!-- create table -->
         <h1><span>Reserve Users</span> Table View</h1>
 
         <button class="button buttonAdd"><a href="./addreserve.php">Add Reservation</a></button>
@@ -123,7 +123,7 @@ require('adminConfig.php');
 
         </table>
     </div>
-
+<!-- display massages -->
     <script>
         // Function to fade out the div
         function fadeOut(element) {
