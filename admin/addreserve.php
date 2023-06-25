@@ -33,13 +33,13 @@
             <option value="Package3">Package-3</option>
         </select>
         <h2 class="name"> NIC: </h2>
-        <input class="nic" type="text" name="nic" required  placeholder="Ex:-123456789V">
+        <input class="nic" type="text" name="nic" required maxlength="12" size="12" placeholder="-123456789V-">
         <h2 class="name"> Email: </h2>
         <input class="email" type="text" name="email" required  placeholder="-email-">
         <h2 class="name"> Phone: </h2>
-        <input class="code" type="text" name="acode" required  maxlength="3" size="3" placeholder="Ex:+94">
+        <input class="code" type="text" name="acode" required  maxlength="3" size="3" placeholder="+94">
         <label class="area-code ">  Area code: </label>
-        <input class="number" type="text" name="number" required  maxlength="9" size="9" placeholder="Ex:- 771234567">
+        <input class="number" type="text" name="number" required  maxlength="9" size="9" placeholder="-771234567-">
         <label class="phone-number"> Phone Number: </label><br>
         <CENTER>
         <button  type="submit"  value="Send Data"> Submit </button>

@@ -34,7 +34,7 @@
   <h2>WILD-LIFE SAFARI</h2>
 </div>
 <br>
-
+<!-- cards -->
 <div class="option-card">
 <div class="cards">
   <div class="image">
@@ -173,7 +173,7 @@
 </div>
 </div>  
 
-<!-- SLIDER  -->
+<!-- SLIDER script -->
 
 <script src= "./js/slider.js"></script>   
 <?php require 'footer.php' ?>
