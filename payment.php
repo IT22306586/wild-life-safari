@@ -30,7 +30,7 @@
       <input type="text" name="cardname" placeholder="John More Doe" required>
       
       <label for="ccnum">Credit card number</label>
-      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+      <input type="text" id="ccnum" name="cardnumber"  placeholder="1111-2222-3333-4444" required maxlength="16">
       
   <div class="month-year">
   <div class="input-con">
@@ -68,7 +68,7 @@
   </div>
  </div>
       <label for="cvv">CVV</label>
-      <input type="text" id="cvv" name="cvv" placeholder="352">
+      <input type="text" id="cvv" name="cvv" placeholder="352" required maxlength="3">
       
       <button type="submit">PAY</button>
     </form>
