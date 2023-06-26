@@ -3,6 +3,7 @@ require '../adminconfig.php';
 
 $id = $_GET['id'];
 
+// delete record from contact us database
 $query = "DELETE FROM contactus WHERE id = '$id'";
 
 $data = mysqli_query($conn, $query);
