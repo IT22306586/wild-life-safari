@@ -1,6 +1,7 @@
 <?php
   include 'config.php';
 
+  // Check if the required form fields are set
   if(isset($_POST['cardname']) && isset($_POST['cardnumber']) && isset($_POST['expmonth']) && isset($_POST['expyear']) && isset($_POST['cvv'])){
       $cardname = $_POST['cardname'];
       $cardnumber = $_POST['cardnumber'];
@@ -8,7 +9,7 @@
       $expyear = $_POST['expyear'];
       $cvv = $_POST['cvv'];
       
-
+    // Execute the prepared statement
       $stmt = $conn->prepare("INSERT INTO payment (`cardname`, `cardnumber`, `expmonth`, `expyear`, `cvv`) VALUES (?,?,?,?,?)");
       $stmt->bind_param("siiii", $cardname, $cardnumber, $expmonth, $expyear, $cvv);
 
